@@ -1,0 +1,64 @@
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title>MariamAbdelrazek</title>
+</head>
+<body>
+
+
+<div class= "accordion">
+  <button type="button" class="accordion__button"> <h1><center> Welcome to Mariam Abdelrazek's website </center> </h1></button>
+  <div class="accordion__content">
+
+     <ul>
+    <li><a href="Recentwork.html"> Recent work</li></a>
+      <li><a href="Information.html"> Information </li></a>
+
+    </ul>
+</div>
+</div>
+
+
+<div class="row">
+  <div class="column" id="left" style="background-color:#aaa;">
+    <h2>30MFF</h2>
+    <video class="MFFVid" controls>
+     <source src="30MFF.mp4" type="video/mp4">
+     <source src="30MFF.mp4" type="video/mp4">
+   Your browser does not support the video tag.
+   </video>
+
+  </div>
+  <div class="column" id="right" accesskey=""style="background-color:#bbb;">
+    <h2>Contact Details:</h2>
+    <ul>
+  <li>Email:ma6394@nyu.edu</li>
+  <li>Phone:+971501376357</li>
+</ul>
+    <img src="mariampic.JPG" alt="Pcture of Mariam"style="position:absolute;height:300px;width:220px;top:320px;left:1250px"/>
+
+  </div>
+</div>
+
+<script>
+    document.querySelectorAll('.accordion__button').forEach(button =>
+       {
+         button.addEventListener('click',() =>
+         {
+           const accordionContent = button.nextElementSibling;
+           button.classList.toggle('accordion__button--active');
+
+           if (button.classList.contains('accordion__button--active'))
+           {
+             accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+           }
+           else
+           {
+             accordionContent.style.maxHeight = 0;
+           }
+        });
+      });
+
+</script>
+</body>
+</html>
