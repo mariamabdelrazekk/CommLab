@@ -9,4 +9,4 @@ Process: I put my recent work as a carousel so that people can navigate the cont
 Reflection/evaluation:
 
 I faced a lot of problems while developing the website that i tried to work on. First of all with the drop down list, when you refresh the page, you have to click on the list for it to be closes, it does not look the best. Second problem was the columns I made, no matter how many times I tried to make them stretch though the whole height of the page by using height=100% or height=”100vh”, it wouldn’t work. I also wanted to have the arrows that help you navigate through the carousel are not really well-aligned, I tried changing their position multiple times but, it would not work. For the reactions, I tried adding text, however, It could not align next to the pictures and the pictures were sort of aligned to the left event though I wanted them to be aligned in the center. All in all, I faced multiple difficulties achieving my goals for this website, however, I think that overall it is functioning and communicates the content that I want it to. 
-![image](https://user-images.githubusercontent.com/91086698/192207225-ff382e97-a753-4fe7-a2c3-073954f1f675.png)
+
